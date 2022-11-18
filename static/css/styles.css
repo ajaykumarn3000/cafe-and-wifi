@@ -63,6 +63,7 @@ font-family: 'Marcellus', serif; */
   margin-bottom: 20px;
 }
 .contact-message {
+  width: 100%;
   border-color: white;
   color: white;
   background-color: rgba(0,0,0, 0.3);
@@ -90,7 +91,7 @@ font-family: 'Marcellus', serif; */
 .navbar-cafe {
   padding-top: 0%;
   padding-left: 5%;
-  padding-right: 5%;;
+  padding-right: 5%;
 }
 .navbar-all {
   padding-top: 3%;
@@ -259,4 +260,13 @@ font-family: 'Marcellus', serif; */
   max-height:calc(100vh / 2);
   width: auto;
   height: auto;
+}
+@media screen and (max-width: 492px) {
+    .all-cafe {
+        padding: 0;
+    }
+    .cafe {
+        padding: 5px 10px;
+        margin: 35px 0;
+    }
 }
